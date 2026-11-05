@@ -26,6 +26,11 @@ public class SimpleTask {
 		num2[3] = 28;
 
 		System.out.println(num2[2]);
+		
+		//modify values
+		num2[2] = 28374;
+		System.out.println("Num2 is modified");
+		System.out.println(num2[2]);
 
 		// Now see input of array using loops
 		int sum[] = new int[5];
