@@ -38,8 +38,19 @@ public class SimpleTask {
 		// For Each Loop
 		System.out.println("Using for each loop");
 		
-		for (int num3 : sum) {
-			System.out.print(num3 + " ");
+		for (int num3 : sum) { //For every element in the array, print the element
+			System.out.print(num3 + " "); //Here num3 represents element of the array
 		}
+		
+		
+		//Array of string
+		
+		String str []= new String[4];
+		for(int i=0; i<str.length; i++) {
+			str[i] = sc.next();
+		}
+		
+		System.out.println(Arrays.toString(str));
+		
 	}
 }
